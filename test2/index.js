@@ -12,4 +12,6 @@ config.views.system.packages.push({
   manifest: path.join(rootPath, 'package.json')
 });
 
+config.views.system.importAllIgnore.push('bootstrap');
+
 bedrock.start();
