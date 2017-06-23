@@ -1,12 +1,13 @@
 <p>hi there</p>
-<br-modal-comp>
+
   <button type="button" class="btn btn-primary" ng-click="$ctrl.showMyModal=true">
-    OPen Modal
+    Open Modal
   </button>
   <stackable-modal stackable="$ctrl.showMyModal">
     <br-modal br-title="My Modal">
       <br-modal-body>
         <p>Some modal content...</p>
+        <br-second-comp></br-second-comp>
       </br-modal-body>
       <br-modal-footer>
         <button type="button" class="btn btn-primary">Ok</button>
@@ -15,4 +16,3 @@
       </br-modal-footer>
     </br-modal>
   </stackable-modal>
-</br-modal-comp>
