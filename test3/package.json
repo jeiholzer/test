@@ -1,0 +1,31 @@
+{
+  "name": "test3",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "node index.js compile-less"
+  },
+  "dependencies": {
+    "bedrock": "^1.4.1",
+    "bedrock-angular": "^3.0.0",
+    "bedrock-angular-alert": "^3.0.2",
+    "bedrock-angular-modal": "digitalbazaar/bedrock-angular-modal#bootstrap",
+    "bedrock-angular-model": "^3.0.2",
+    "bedrock-angular-navbar": "^4.0.6",
+    "bedrock-express": "^2.0.6",
+    "bedrock-server": "^2.2.0",
+    "bedrock-views": "^5.0.1"
+  },
+  "bedrock": {
+    "browserDependencies": [
+      "bedrock-angular",
+      "bedrock-angular-modal"
+    ]
+  },
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "directories": {},
+  "main": "start.js"
+}

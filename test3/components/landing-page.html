@@ -1,0 +1,9 @@
+<p>Enter a name:</p>
+<input type="text" ng-model="$ctrl.personName" ex-focus="true" /><br />
+<br />
+<button type="button" class="btn btn-primary" ng-click="$ctrl.showTheModal=true">
+  Open
+</button>
+<stackable-modal stackable="$ctrl.showTheModal">
+  <the-modal the-person="$ctrl.personName"></the-modal>
+</stackable-modal>
